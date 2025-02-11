@@ -19,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import { DataComponent } from './projects/data/data.component';
 import { ProgrammingComponent } from './projects/programming/programming.component';
+import { MatOptionModule } from '@angular/material/core';
 
 
 @NgModule({
@@ -44,6 +45,7 @@ import { ProgrammingComponent } from './projects/programming/programming.compone
     MatIconModule,
     MatListModule,
     MatCardModule,
+    MatOptionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

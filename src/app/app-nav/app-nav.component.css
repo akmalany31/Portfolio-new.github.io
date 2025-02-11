@@ -15,3 +15,7 @@
   top: 0;
   z-index: 1;
 }
+.nested-list {
+  padding-left: 50px;
+  list-style-type: disc; /* Bulet default */
+}
