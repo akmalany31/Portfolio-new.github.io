@@ -7,3 +7,7 @@
     height: 200px; /* Adjust the height as needed */
     object-fit: cover;
   }
+  .card-title{
+    font-size: 1rem;
+    font-weight: 600;
+  }
