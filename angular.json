@@ -26,7 +26,6 @@
     "polyfills": "src/polyfills.ts",
     "tsConfig": "tsconfig.app.json",
     "baseHref": "/Portfolio-new.github.io/",
-    "deployUrl": "/Portfolio-new.github.io/",
     "assets": [
       "src/favicon.ico",
       "src/assets"
