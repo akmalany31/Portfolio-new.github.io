@@ -1,0 +1,13 @@
+.projects {
+  padding: 80px 70px;
+}
+
+.card-custom {
+    max-width: 90%; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center align the cards */
+    padding: 20px; /* Add some padding */
+  }
+  .card-img-top-custom {
+    height: 330px; /* Adjust the height as needed */
+    object-fit: cover;
+  }

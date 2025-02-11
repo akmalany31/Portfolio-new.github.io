@@ -1,0 +1,81 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1.title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Bikin jarak antar kolom */
+    flex-wrap: wrap; /* Responsif kalau layar kecil */
+}
+
+.col-md-6 {
+    flex: 0 0 45%; /* Bikin jarak antar elemen */
+    max-width: 45%;
+    text-align: center; /* Semua teks center */
+}
+
+.img-edu {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
+
+p {
+    text-align: justify, center; /* Justify supaya rapi */
+    margin: 10px 20px;
+}
+
+p.text-center {
+    text-align: justify !important; /* Pastikan teks justify */
+    max-width: 70%; /* Supaya tidak terlalu panjang */
+    margin: 0 auto 30px; /* Tengahin elemen tapi tetap justify */
+}
+
+/* Skill Section */
+.skill-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    padding: 15px;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-list li {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-list span {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Responsive untuk layar kecil */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    p {
+        text-align: center; /* Supaya tetap enak di layar kecil */
+    }
+}

@@ -1,0 +1,13 @@
+#resume-section * {
+  all: unset; /* Hilangkan semua style Bootstrap */
+}
+
+.pdf-container {
+    height: 700px; /* Sesuaikan tinggi sesuai kebutuhan */
+    width: 100%;
+    overflow: hidden;
+  }
+  .pdf-iframe {
+    width: 100%;
+    height: 100%;
+  }

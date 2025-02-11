@@ -1,0 +1,79 @@
+#resume-section * {
+    all: unset; /* Hilangkan semua style Bootstrap */
+  }
+
+.home {
+    padding: 80px 70px;
+}
+
+.text-justify {
+    text-align: justify;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+.img-offers1 {
+    display: block;
+    margin: auto;
+    width: 400px;
+}
+
+/* Pastikan row tetap responsif */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Supaya turun ke bawah di layar kecil */
+    align-items: center;
+    justify-content: center;
+}
+
+/* ✅ RESPONSIVE SETTINGS */
+@media (max-width: 992px) {
+    .text-justify {
+        margin-left: 20px; /* Kurangi margin di layar kecil */
+        margin-right: 20px;
+    }
+    
+    .img-offers1 {
+        width: 80%; /* Kurangi ukuran gambar di layar kecil */
+        margin-left: auto; /* Reset margin kiri */
+    }
+
+    h1 {
+        font-size: 2rem; /* Kecilkan ukuran heading di layar kecil */
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack elemen ke bawah */
+    }
+
+    .text-justify {
+        text-align: center; /* Teks jadi center di layar kecil */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-offers1 {
+        width: 90%; /* Biar nggak kepotong di layar kecil */
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem; /* Ukuran font lebih kecil untuk layar HP */
+    }
+
+    .img-offers1 {
+        width: 100%; /* Gambar full width */
+    }
+}
