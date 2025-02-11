@@ -18,4 +18,10 @@ export class AppNavComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
+  isProjectMenuOpen = false;
+
+toggleProjectMenu() {
+  this.isProjectMenuOpen = !this.isProjectMenuOpen;
+}
+
 }

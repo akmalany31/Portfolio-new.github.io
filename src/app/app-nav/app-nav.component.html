@@ -8,12 +8,13 @@
       <a mat-list-item routerLink="home">Home</a>
       <a mat-list-item routerLink="about">About</a>
       <a mat-list-item routerLink="resume">Resume</a>
-      <a mat-list-item>Project</a>
-      <!-- <a mat-list-item routerLink="projects">Project</a> -->
-<ul class="nested-list">
-  <li><a mat-list-item routerLink="data">Data</a></li>
-  <li><a mat-list-item routerLink="programming">Programming</a></li>
-</ul>
+
+      <!-- Project Menu -->
+      <a mat-list-item (click)="toggleProjectMenu()">Project</a>
+      <ul *ngIf="isProjectMenuOpen" class="nested-list">
+        <li><a mat-list-item routerLink="data">Data</a></li>
+        <li><a mat-list-item routerLink="programming">Programming</a></li>
+      </ul>
 
     </mat-nav-list>
   </mat-sidenav>
