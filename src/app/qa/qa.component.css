@@ -1,0 +1,14 @@
+.card-custom {
+    max-width: 90%; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center align the cards */
+    padding: 20px; /* Add some padding */
+  }
+  .card-img-top-custom {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+
+.card-title{
+  font-size: 1rem;
+  font-weight: 600;
+}

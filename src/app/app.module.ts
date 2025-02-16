@@ -20,6 +20,8 @@ import {MatCardModule} from '@angular/material/card';
 import { DataComponent } from './projects/data/data.component';
 import { ProgrammingComponent } from './projects/programming/programming.component';
 import { MatOptionModule } from '@angular/material/core';
+import { QaComponent } from './qa/qa.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { MatOptionModule } from '@angular/material/core';
     ProjectsComponent,
     AppNavComponent,
     DataComponent,
-    ProgrammingComponent
+    ProgrammingComponent,
+    QaComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
